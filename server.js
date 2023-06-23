@@ -86,7 +86,7 @@ app.delete('/deleteproducts/:id', async(req, res)=>{
 //connect to the database
 try{
 mongoose.set('strictQuery', false)
-mongoose.connect('mongodb+srv://chakerhenitn:chakerhenitn@orderapi.p5xgvpp.mongodb.net/?retryWrites=true&w=majority')
+mongoose.connect('mongodb+srv://3333333:22222222@orderapi.p5xgvpp.mongodb.net/?retryWrites=true&w=majority')
 .then(() => console.log('Connected to mongodb cloud database!'))
 app.listen(3000, ()=>{
 console.log('THe server is running succesfully on port 3000')
